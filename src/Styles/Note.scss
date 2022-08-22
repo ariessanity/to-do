@@ -1,0 +1,29 @@
+.note {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 240px;
+  margin: 16px;
+
+  &__title {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+
+  &__content {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+
+  button {
+    color: red;
+    background-color: transparent;
+    border: none;
+    align-self: flex-end;
+  }
+}

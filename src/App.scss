@@ -1,0 +1,25 @@
+@import "./Styles/Header.scss";
+
+$text-color-1: #333;
+$header-bg-color: #f5ba13;
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: $text-color-1;
+  background-color: rgb(220, 220, 220);
+}
+
+.layout {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
